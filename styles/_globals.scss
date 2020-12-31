@@ -1,0 +1,19 @@
+// CSS Reset
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    scroll-behavior: smooth;
+}
+
+// Section Padding
+.padding {
+    padding-bottom: 2rem;
+}
+
+// Bootstrap Padding Fix
+[class*="col-"] {
+    padding: 1rem;
+}

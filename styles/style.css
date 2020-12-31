@@ -1,262 +1,257 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
-/* CSS Reset */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 html,
 body {
-    height: 100%;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    color: #222;
-}
-
-/* Global */
-.btn-primary {
-    background-color: #ffe609;
-    border: none;
-    box-shadow: 0 0 5px 2px #222;
-    color: #222;
-}
-
-.btn-primary:hover {
-    background-color: #fff383;
-    color: #222;
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  scroll-behavior: smooth;
 }
 
 .padding {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
-/* Navbar */
-.navbar {
-    padding: 0.8rem;
+[class*="col-"] {
+  padding: 1rem;
 }
 
-.navbar-brand {
-    text-transform: uppercase;
-    font-size: 1.5rem;
+nav {
+  padding: 0.8rem;
+  background-color: #ffffff;
 }
 
-.navbar-nav li {
-    padding-right: 1.4rem;
+nav .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
-#nav-link {
-    font-size: 1.1em;
+nav .navbar-nav li {
+  padding-right: 1.4rem;
 }
 
-/* Hero */
+nav .navbar-nav a {
+  font-size: 1.1em;
+}
+
 .hero {
-    background-image: url(/images/hero-img.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url(/images/hero-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .hero-content h1 {
-    color: #ffe609;
-    font-size: 500%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 10px #000;
+  color: #ffe609;
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
 }
 
 .hero-content p {
-    font-size: 130%;
-    color: #f9f9f9;
-    padding: 1rem;
-    text-shadow: 1px 1px 10px #000;
+  font-size: 130%;
+  color: #f9f9f9;
+  padding: 1rem;
+  text-shadow: 1px 1px 10px #000;
 }
 
 .hero-content hr {
-    background-color: #f9f9f9;
-    width: 60rem;
+  background-color: #f9f9f9;
+  width: 60rem;
 }
 
-/* Services */
 .services {
-    width: 75%;
-    margin: 0 auto;
-    padding-top: 2rem;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 .services hr {
-    border-top: 2px solid #b4b4b4;
-    width: 95%;
-    margin-top: 0.3rem;
-    margin-bottom: 1rem;
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
 }
 
-/* Service Types */
 .service-img {
-    width: 6em;
-    margin: 1rem;
+  width: 6em;
+  margin: 1rem;
 }
 
 .service-type {
-    max-width: 25rem;
-    margin: 0 auto;
-    transition: all 290ms ease-out;
+  max-width: 25rem;
+  margin: 0 auto;
+  -webkit-transition: all 290ms ease-out;
+  transition: all 290ms ease-out;
 }
 
 .service-type:hover {
-    border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
-    transition: all 290ms ease-in;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 290ms ease-in;
+  transition: all 290ms ease-in;
 }
 
-/* Services Description */
-.img-fluid {
-    border: 12px solid #b4b4b4;
-    border-radius: 10px;
-}
-
-.service-description {
-    width: 91%;
-    margin: 0 auto;
+.service-descritpion {
+  width: 91%;
+  margin: 0 auto;
 }
 
 .service-description p {
-    font-size: 130%;
-    margin-top: 2rem;
+  font-size: 130%;
+  margin-top: 2rem;
 }
 
-/* Team Cards */
+.img-fluid {
+  border: 12px solid #b4b4b4;
+  border-radius: 10px;
+}
+
 .card-section {
-    justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card-img-top {
-    max-height: 30rem;
-    object-fit: cover;
-    object-position: top 5rem;
+  max-height: 30rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top 5rem;
+     object-position: top 5rem;
 }
 
 .whole-card {
-    max-width: 30rem;
+  max-width: 30rem;
 }
 
-/* Company Description */
 .company-description {
-    width: 91%;
-    margin: 0 auto;
+  width: 91%;
+  margin: 0 auto;
 }
 
 .company-description p {
-    font-size: 130%;
-    margin-top: 2rem;
+  font-size: 130%;
+  margin-top: 2rem;
 }
 
 .col-lg-6 {
-    margin: auto 0;
+  margin: auto 0;
 }
 
-/* Connect Section */
 .social a {
-    font-size: 4.5em;
-    padding: 3rem;
+  font-size: 4.5em;
+  padding: 3rem;
 }
 
 .fa-facebook {
-    color: #3b5998;
+  color: #3b5998;
 }
 
 .fa-twitter {
-    color: #00aced;
+  color: #00aced;
 }
 
 .fa-google-plus-g {
-    color: #dd4b39;
+  color: #dd4b39;
 }
 
 .fa-linkedin {
-    color: #0072b1;
+  color: #0072b1;
 }
 
-.fa-facebook:hover,
-.fa-twitter:hover,
-.fa-google-plus-g:hover,
-.fa-linkedin:hover {
-    opacity: 0.7;
-    transition: all 200ms ease-in-out;
+.fa-facebook:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-linkedin:hover {
+  opacity: 0.7;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
-/* Footer */
 footer {
-    background-color: #3f3f3f;
-    color: #d5d5d5;
-    padding-top: 2rem;
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
 }
 
 footer a {
-    color: #d5d5d5;
+  color: #d5d5d5;
 }
 
-/* Horizontal Ruler */
-hr.light {
-    border-top: 1px solid #d5d5d5;
-    width: 75%;
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
+hr .light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
 }
 
-hr.light-100 {
-    border-top: 1px solid #d5d5d5;
-    width: 100%;
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
+hr .light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
 }
 
+.btn-primary {
+  background-color: #ffe609;
+  border: none;
+  -webkit-box-shadow: 0 0 5px 2px #222;
+          box-shadow: 0 0 5px 2px #222;
+  color: #222;
+}
 
-/* Media Queries */
-@media (max-width: 992px) {}
+.btn-primary:hover {
+  background-color: #fff383;
+  color: #222;
+}
 
-@media (max-width: 768px) {}
+.fa-check {
+  color: #37a733;
+}
+
+.pricing-table {
+  background-color: #ebebeb;
+  max-width: 25rem;
+  margin: 0 auto;
+  letter-spacing: 0.1rem;
+}
+
+.pricing-table h3 {
+  padding: 0.6rem;
+}
 
 @media (max-width: 576px) {
-    .hero-content h1 {
-        font-size: 450%;
-    }
-
-    .hero-content p {
-        font-size: 120%;
-    }
-
-    .hero-content hr {
-        background-color: #f9f9f9;
-        width: 17rem;
-    }
-
-    .services {
-        width: 100%;
-        padding-top: 1rem;
-    }
-
-    .service-description {
-        width: 91%;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .img-fluid {
-        display: none;
-    }
-
-    .card-img-top {
-        max-height: 20rem;
-    }
-
-    .whole-card {
-        max-width: 20rem;
-    }
-
-    .company-description {
-        text-align: center;
-        margin: 0 auto;
-    }
+  .hero-content h1 {
+    font-size: 450%;
+  }
+  .hero-content p {
+    font-size: 120%;
+  }
+  .hero-content hr {
+    background-color: #f9f9f9;
+    width: 17rem;
+  }
+  .services {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .service-description {
+    width: 91%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .img-fluid {
+    display: none;
+  }
+  .card-img-top {
+    max-height: 20rem;
+  }
+  .whole-card {
+    max-width: 20rem;
+  }
+  .company-description {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
-
-/* Bootstrap Padding Fix */
-[class*="col-"] {
-    padding: 1rem;
-}
+/*# sourceMappingURL=style.css.map */

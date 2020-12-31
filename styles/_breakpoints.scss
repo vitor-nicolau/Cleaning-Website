@@ -1,0 +1,50 @@
+// Media Queries
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+
+    .hero {
+        &-content h1 {
+            font-size: 450%;
+        }
+
+        &-content p {
+            font-size: 120%;
+        }
+
+        &-content hr {
+            background-color: #f9f9f9;
+            width: 17rem;
+        }
+    }
+
+    .services {
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .service-description {
+        width: 91%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .img-fluid {
+        display: none;
+    }
+
+    .card-img-top {
+        max-height: 20rem;
+    }
+
+    .whole-card {
+        max-width: 20rem;
+    }
+
+    .company-description {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
