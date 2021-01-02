@@ -220,6 +220,24 @@ hr .light-100 {
   padding: 0.6rem;
 }
 
+@media (max-width: 768px) {
+  .card-img-top {
+    max-height: 16rem;
+  }
+  .service-description {
+    width: 91%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .company-description {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .pricing-table {
+    margin-top: 1rem;
+  }
+}
+
 @media (max-width: 576px) {
   .hero-content h1 {
     font-size: 450%;
@@ -252,6 +270,10 @@ hr .light-100 {
   .company-description {
     text-align: center;
     margin: 0 auto;
+  }
+  .pricing-table {
+    max-width: 20rem;
+    margin-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
