@@ -19,7 +19,7 @@
 <body>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
             <a href="#" class="navbar-brand">Squeaky Clean</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNav">
@@ -40,6 +40,54 @@
             </div>
         </div>
     </nav>
+
+    <!-- Contact Form -->
+    <div class="container-fluid padding text-center contact-form">
+        <h1 class="display-4">Request Call Back</h1>
+        <form id="contact-form" target="_blank">
+            <div class="row">
+                <div class="col-md-3 ml-auto">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" class="form-control" id="firstName"
+                            placeholder="Your First Name" required />
+                    </div>
+                </div>
+                <div class="col-md-3 mr-auto">
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" class="form-control" id="lastName"
+                            placeholder="Your Last Name" required />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control" id="email"
+                            placeholder="Your Email Address" required />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" class="form-control" id="message" cols="30" rows="10"
+                            placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-lg btn-success">Submit</button>
+            </div>
+            <div style="position: absolute; left: -5000px">
+                <input type="checkbox" name="soft_forest_green_argyle_pinboard" value="1" tabindex="-1"
+                    autocomplete="no" />
+            </div>
+        </form>
+    </div>
 
     <!-- Connect Section -->
     <div class="container-fluid padding">

@@ -4,9 +4,11 @@
 }
 
 .pricing-table {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     background-color: #ebebeb;
     max-width: 25rem;
-    margin: 0 auto;
+    margin: 1rem auto 1rem auto;
     letter-spacing: 0.1rem;
 }
 

@@ -210,14 +210,21 @@ hr .light-100 {
 }
 
 .pricing-table {
+  border-radius: 20px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
   background-color: #ebebeb;
   max-width: 25rem;
-  margin: 0 auto;
+  margin: 1rem auto 1rem auto;
   letter-spacing: 0.1rem;
 }
 
 .pricing-table h3 {
   padding: 0.6rem;
+}
+
+.contact-form h1 {
+  margin: 3rem 0;
 }
 
 @media (max-width: 768px) {
